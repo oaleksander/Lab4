@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="876.9033333333334" y="469.0">com.company.Moon</node>
+    <node x="636.0306204906203" y="137.5">com.company.StoneObject</node>
+    <node x="10.5" y="536.0">com.company.Znayka.MountainCheckingException</node>
+    <node x="336.50000000000006" y="536.0">com.company.CoolMountain</node>
+    <node x="929.25" y="320.0">com.company.Moon.FunnyComparisonException</node>
+    <node x="1094.75" y="104.0">com.company.Ruins</node>
+    <node x="714.4324386724386" y="986.0">com.company.Main</node>
+    <node x="441.1139538239537" y="0.0">com.company.Material</node>
+    <node x="475.8333333333334" y="297.0">com.company.Human</node>
+    <node x="370.4324386724386" y="727.0">com.company.Znayka</node>
+    <node x="714.5306204906203" y="275.0">com.company.Pancake</node>
+    <node x="528.5306204906203" y="469.0">com.company.Human.Mood</node>
+    <node x="227.7930591630589" y="275.0">com.company.Mountain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Moon" target="com.company.StoneObject">
+      <point x="0.0" y="-94.0" />
+      <point x="973.9033333333334" y="439.0" />
+      <point x="918.75" y="439.0" />
+      <point x="918.75" y="245.0" />
+      <point x="758.4306204906204" y="245.0" />
+      <point x="54.39999999999998" y="27.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Pancake">
+      <point x="16.555555555555543" y="-27.0" />
+      <point x="805.4879942279941" y="966.0" />
+      <point x="799.9630591630589" y="966.0" />
+      <point x="799.9630591630589" y="449.0" />
+      <point x="822.0306204906203" y="449.0" />
+      <point x="21.5" y="72.0" />
+    </edge>
+    <edge source="com.company.Znayka" target="com.company.Pancake">
+      <point x="114.54545454545462" y="-94.5" />
+      <point x="642.4778932178932" y="697.0" />
+      <point x="757.5" y="697.0" />
+      <point x="757.5" y="449.0" />
+      <point x="736.0306204906203" y="449.0" />
+      <point x="-64.5" y="72.0" />
+    </edge>
+    <edge source="com.company.Znayka" target="com.company.Human.Mood">
+      <point x="57.27272727272731" y="-94.5" />
+      <point x="585.2051659451658" y="677.0" />
+      <point x="652.2806204906203" y="677.0" />
+      <point x="41.25" y="94.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Ruins">
+      <point x="66.22222222222217" y="-27.0" />
+      <point x="855.1546608946608" y="966.0" />
+      <point x="1180.75" y="966.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="com.company.Znayka" target="com.company.Moon">
+      <point x="143.1818181818183" y="-94.5" />
+      <point x="671.1142568542568" y="707.0" />
+      <point x="909.2366666666668" y="707.0" />
+      <point x="-64.66666666666663" y="94.0" />
+    </edge>
+    <edge source="com.company.CoolMountain" target="com.company.StoneObject">
+      <point x="48.0" y="-27.0" />
+      <point x="456.50000000000006" y="449.0" />
+      <point x="423.29305916305896" y="449.0" />
+      <point x="423.29305916305896" y="255.0" />
+      <point x="676.8306204906204" y="255.0" />
+      <point x="-27.19999999999999" y="27.0" />
+    </edge>
+    <edge source="com.company.Znayka" target="com.company.Znayka.MountainCheckingException">
+      <point x="-143.18181818181807" y="-94.5" />
+      <point x="384.7506204906205" y="707.0" />
+      <point x="163.5" y="707.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.company.Znayka" target="com.company.CoolMountain">
+      <point x="-57.272727272727195" y="-94.5" />
+      <point x="470.6597113997114" y="677.0" />
+      <point x="444.50000000000006" y="677.0" />
+      <point x="36.0" y="27.0" />
+    </edge>
+    <edge source="com.company.Mountain" target="com.company.Material">
+      <point x="-57.333333333333314" y="-72.0" />
+      <point x="256.4597258297256" y="255.0" />
+      <point x="302.7930591630589" y="255.0" />
+      <point x="302.7930591630589" y="74.0" />
+      <point x="456.1139538239537" y="74.0" />
+      <point x="-45.0" y="27.0" />
+    </edge>
+    <edge source="com.company.Ruins" target="com.company.Material">
+      <point x="0.0" y="-60.5" />
+      <point x="1180.75" y="74.0" />
+      <point x="546.1139538239537" y="74.0" />
+      <point x="45.0" y="27.0" />
+    </edge>
+    <edge source="com.company.Mountain" target="com.company.StoneObject">
+      <point x="57.33333333333334" y="-72.0" />
+      <point x="371.1263924963922" y="245.0" />
+      <point x="649.6306204906205" y="245.0" />
+      <point x="-54.39999999999998" y="27.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Znayka">
+      <point x="-16.555555555555543" y="-27.0" />
+      <point x="772.376883116883" y="936.0" />
+      <point x="606.6824386724386" y="936.0" />
+      <point x="78.75" y="94.5" />
+    </edge>
+    <edge source="com.company.CoolMountain" target="com.company.Mountain">
+      <point x="0.0" y="-27.0" />
+      <point x="408.50000000000006" y="449.0" />
+      <point x="371.1263924963922" y="449.0" />
+      <point x="57.33333333333334" y="72.0" />
+    </edge>
+    <edge source="com.company.Znayka" target="com.company.Human">
+      <point x="-28.63636363636357" y="-94.5" />
+      <point x="499.296075036075" y="707.0" />
+      <point x="491.0306204906204" y="707.0" />
+      <point x="491.0306204906204" y="449.0" />
+      <point x="498.0000000000001" y="449.0" />
+      <point x="-44.33333333333334" y="50.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Znayka.MountainCheckingException">
+      <point x="-49.66666666666663" y="-27.0" />
+      <point x="739.265772005772" y="956.0" />
+      <point x="88.25333333333344" y="956.0" />
+      <point x="88.25333333333344" y="707.0" />
+      <point x="61.5" y="707.0" />
+      <point x="-102.0" y="27.0" />
+    </edge>
+    <edge source="com.company.Znayka" target="com.company.StoneObject">
+      <point x="85.90909090909093" y="-94.5" />
+      <point x="613.8415295815296" y="687.0" />
+      <point x="704.0306204906203" y="687.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.company.Moon" target="com.company.Pancake">
+      <point x="-77.60000000000002" y="-94.0" />
+      <point x="896.3033333333334" y="449.0" />
+      <point x="865.0306204906203" y="449.0" />
+      <point x="64.5" y="72.0" />
+    </edge>
+    <edge source="com.company.Moon" target="com.company.Moon.FunnyComparisonException">
+      <point x="38.799999999999955" y="-94.0" />
+      <point x="1012.7033333333334" y="449.0" />
+      <point x="989.5" y="449.0" />
+      <point x="-60.25" y="27.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Mountain">
+      <point x="-66.22222222222217" y="-27.0" />
+      <point x="722.7102164502164" y="966.0" />
+      <point x="0.0" y="966.0" />
+      <point x="0.0" y="449.0" />
+      <point x="256.4597258297256" y="449.0" />
+      <point x="-57.333333333333314" y="72.0" />
+    </edge>
+    <edge source="com.company.Human.Mood" target="com.company.Human">
+      <point x="0.0" y="-94.0" />
+      <point x="611.0306204906203" y="449.0" />
+      <point x="586.6666666666667" y="449.0" />
+      <point x="44.333333333333314" y="50.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.Moon">
+      <point x="33.111111111111086" y="-27.0" />
+      <point x="822.0435497835497" y="946.0" />
+      <point x="973.9033333333334" y="946.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="com.company.StoneObject" target="com.company.Material">
+      <point x="0.0" y="-27.0" />
+      <point x="704.0306204906203" y="84.0" />
+      <point x="516.1139538239537" y="84.0" />
+      <point x="15.0" y="27.0" />
+    </edge>
+    <edge source="com.company.Moon.FunnyComparisonException" target="com.company.Moon">
+      <point x="60.250000000000114" y="27.0" />
+      <point x="1110.0000000000002" y="449.0" />
+      <point x="1051.5033333333336" y="449.0" />
+      <point x="77.60000000000002" y="-94.0" />
+    </edge>
+    <edge source="com.company.Znayka.MountainCheckingException" target="com.company.Znayka">
+      <point x="102.0" y="27.0" />
+      <point x="265.5" y="697.0" />
+      <point x="413.38698412698415" y="697.0" />
+      <point x="-114.54545454545445" y="-94.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5448598130841121" x="611.5" y="525.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

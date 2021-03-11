@@ -6,7 +6,6 @@ public class Znayka extends Human {
 
     private static final String nickname = "Знайка";
     private Mood mood;
-
     public Znayka() {
         super(nickname);
     }
@@ -19,16 +18,24 @@ public class Znayka extends Human {
         this.mood = mood;
     }
 
-    public String lookAtRock(Mountain mountain) {
+    public String lookAtRock(StoneObject mountain) throws MountainCheckingException {
         String response;
-        if (mountain.getClass() == CoolMountain.class) {
-            response = this.toString() + " нашел " + mountain.toString() + ". Какая радость!";
-            setMood(Mood.HAPPY);
-        } else {
-            response = this.toString() + " нашел " + mountain.toString() + ", но это не " + new CoolMountain().toString() + ". Жаль!";
-            setMood(Mood.SAD);
+        try {
+            if (mountain.getClass() == CoolMountain.class) {
+                response = this.toString() + " нашел " + mountain.toString() + ". Какая радость!";
+                setMood(Mood.HAPPY);
+            } else {
+                setMood(Mood.SAD);
+                throw new IllegalArgumentException();
+            }
+        } catch (IllegalArgumentException err) {
+            throw new MountainCheckingException(mountain.toString() + " не содержит " + new CoolMountain().getMaterial().getProperties(), err);
         }
         return response;
+    }
+
+    public void CompareMoonWithPancake(Moon moon, Pancake pancake) {
+        moon.compareTo(pancake);
     }
 
     @Override
@@ -42,5 +49,11 @@ public class Znayka extends Human {
     @Override
     public int hashCode() {
         return Objects.hash(getMood());
+    }
+
+    public static class MountainCheckingException extends Exception {
+        public MountainCheckingException(String errorMessage, Throwable err) {
+            super(errorMessage, err);
+        }
     }
 }

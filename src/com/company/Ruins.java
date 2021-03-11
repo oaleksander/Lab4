@@ -14,11 +14,11 @@ public class Ruins implements Material {
 
     @Override
     public String toString() {
-        return description() + ", потерявшие первончальную форму";
+        return getProperties() + ", потерявшие первончальную форму";
     }
 
     @Override
-    public String description() {
+    public String getProperties() {
         return "Остатки разрушившейся от времени гигантской кирпичной стены";
     }
 }

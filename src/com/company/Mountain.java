@@ -4,18 +4,14 @@ import java.util.Objects;
 
 public class Mountain implements StoneObject {
 
-    final Material material;
+    private final Material material;
 
     public Mountain(Material material) {
         this.material = material;
     }
 
-    public Material getMaterial() {
-        return material;
-    }
-
     @Override
-    public Material material() {
+    public Material getMaterial() {
         return material;
     }
 
@@ -34,6 +30,6 @@ public class Mountain implements StoneObject {
 
     @Override
     public String toString() {
-        return "Гора из " + material.description();
+        return "Гора из " + material.getProperties();
     }
 }
