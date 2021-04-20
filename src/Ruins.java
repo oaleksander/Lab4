@@ -1,10 +1,13 @@
-package com.company;
+import java.util.Objects;
 
+/**
+ * Class representing brick wall ruins
+ */
 public class Ruins implements Material {
 
     @Override
     public int hashCode() {
-        return super.hashCode();
+        return Objects.hash(toString()) ^ super.hashCode();
     }
 
     @Override

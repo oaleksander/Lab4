@@ -1,10 +1,18 @@
-package com.company;
-
 import java.util.Objects;
 
+/**
+ * Class representing a pancake
+ *
+ * @see Znayka
+ */
 public class Pancake {
     final String description;
 
+    /**
+     * Constructs a pancake with the specified description
+     *
+     * @param description description
+     */
     public Pancake(String description) {
         this.description = description;
     }

@@ -1,5 +1,3 @@
-package com.company;
-
 public abstract class Human {
 
     private final String name;
@@ -11,6 +9,8 @@ public abstract class Human {
     public String getName() {
         return name;
     }
+
+    abstract String introduceYourself();
 
     @Override
     public final String toString() {

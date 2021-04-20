@@ -1,11 +1,17 @@
-package com.company;
-
 import java.util.Objects;
 
-public class Mountain implements StoneObject {
+/**
+ * Class representing a mountain made of a specific material
+ */
+public class Mountain implements SomeTypeOfStone {
 
     private final Material material;
 
+    /**
+     * Constructs a mountain with the specified material
+     *
+     * @param material material
+     */
     public Mountain(Material material) {
         this.material = material;
     }
